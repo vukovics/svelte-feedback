@@ -1,15 +1,17 @@
 {
   "name": "feedbacky-svelte-firebase",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.13",
   "author": "Stefan Vukovic <stefanvkvc@gmail.com>",
   "type": "module",
+  "main": "index.js",
   "description": "This is simple feedback component made with svelte",
   "keywords": [
     "svelte",
     "sveltekit",
     "feedback"
   ],
+  "repository": "https://github.com/vukovics/svelte-feedback",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -19,7 +21,7 @@
     "package": "svelte-kit package"
   },
   "exports": {
-    ".": "./components"
+    ".": "./index.js"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
